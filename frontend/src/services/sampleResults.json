@@ -1,0 +1,1383 @@
+{
+  "SAMPLE-TRL1": {
+    "document_id": "DOC-39BC779F",
+    "filename": "Quantum Sheath Transport in Hypersonic Boundary Layers.txt",
+    "file_type": "TXT",
+    "page_count": 2,
+    "word_count": 351,
+    "char_count": 2818,
+    "processed_at": "2026-11-21T09:11:52.770220Z",
+    "prediction": {
+      "predicted_trl": 1,
+      "trl_title": "Basic Principles Observed and Reported",
+      "trl_definition": "Lowest level of technology readiness. Scientific research begins to be translated into applied R&D. Examples include paper studies of a technology's basic properties, fundamental physical laws, and mathematical formulations.",
+      "calibrated_confidence": 0.6171,
+      "confidence_tier": "High",
+      "probability_distribution": {
+        "1": 0.6171,
+        "2": 0.0191,
+        "3": 0.1748,
+        "4": 0.1043,
+        "5": 0.0042,
+        "6": 0.004,
+        "7": 0.0038,
+        "8": 0.0036,
+        "9": 0.0689
+      },
+      "alternatives": [
+        {
+          "trl": 3,
+          "probability": 0.1748,
+          "description": "Analytical and Experimental Proof-of-Concept"
+        },
+        {
+          "trl": 4,
+          "probability": 0.1043,
+          "description": "Component Validation in Laboratory Environment"
+        },
+        {
+          "trl": 9,
+          "probability": 0.0689,
+          "description": "Actual System Proven through Successful Mission Operations"
+        }
+      ],
+      "evidence_items": [
+        {
+          "evidence_id": "EV-1-869515",
+          "trl_level": 1,
+          "criterion_name": "TRL 1: Basic physical principles observed and mathematically formulated",
+          "quote": "THEORETICAL FORMULATION & BASIC PRINCIPLES The basic physical principles observed in hypersonic re-entry sheaths govern strong electrostatic and collisional decoupling between ionized atomic species and the ambient non-equilibrium flow field.",
+          "page_number": 1,
+          "strength": "Moderate",
+          "confidence_score": 0.79,
+          "verification_status": "Empirical Observation",
+          "reasoning": "Empirical observation confirming practical execution of basic principle under laboratory or test conditions."
+        },
+        {
+          "evidence_id": "EV-1-d35995",
+          "trl_level": 1,
+          "criterion_name": "TRL 1: Basic physical principles observed and mathematically formulated",
+          "quote": "TECHNICAL RESEARCH REPORT: AEROSPACE SCIENCE & FUNDAMENTAL PHYSICS Title: Quantum Sheath Transport in Hypersonic Boundary Layers: A First-Principles Formulation Authors: Dr.",
+          "page_number": 1,
+          "strength": "Moderate",
+          "confidence_score": 0.67,
+          "verification_status": "Preliminary Validation",
+          "reasoning": "Describes technical architecture and criteria corresponding to fundamental physics."
+        },
+        {
+          "evidence_id": "EV-1-8b4a4c",
+          "trl_level": 1,
+          "criterion_name": "TRL 1: Basic physical principles observed and mathematically formulated",
+          "quote": "ABSTRACT In this paper we present a mathematical formulation and first-principles study of magnetoplasmadynamic coupling in hypersonic boundary layers.",
+          "page_number": 1,
+          "strength": "Moderate",
+          "confidence_score": 0.67,
+          "verification_status": "Preliminary Validation",
+          "reasoning": "Describes technical architecture and criteria corresponding to first-principles."
+        },
+        {
+          "evidence_id": "EV-1-df85a6",
+          "trl_level": 1,
+          "criterion_name": "TRL 1: Basic physical principles observed and mathematically formulated",
+          "quote": "Using first principles, we evaluate the 1D Boltzmann kinetic transport equations: \u2202f/\u2202t + v \u00b7 \u2207f + (q/m)(E + v \u00d7 B) \u00b7 \u2207_v f = (\u03b4f/\u03b4t)_coll We observe that at flight enthalpies exceeding 25 MJ/kg, the Debye screening length scales inversely with the square root of theoretical electron density.",
+          "page_number": 1,
+          "strength": "Moderate",
+          "confidence_score": 0.67,
+          "verification_status": "Preliminary Validation",
+          "reasoning": "Describes technical architecture and criteria corresponding to first principles."
+        },
+        {
+          "evidence_id": "EV-3-82c7b9",
+          "trl_level": 3,
+          "criterion_name": "TRL 3: Laboratory benchtop experiments demonstrating critical function",
+          "quote": "However, no component architecture has been formulated, and no synthetic bench tests or laboratory experiments have been initiated.",
+          "page_number": 2,
+          "strength": "Weak",
+          "confidence_score": 0.48,
+          "verification_status": "Preliminary Validation",
+          "reasoning": "Describes technical architecture and criteria corresponding to laboratory experiment."
+        }
+      ],
+      "evidence_counts_by_trl": {
+        "1": 4,
+        "2": 0,
+        "3": 1,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0
+      },
+      "gap_analysis": [
+        {
+          "requirement_id": "GAP-1-1",
+          "target_trl": 1,
+          "category": "TRL 1 Baseline",
+          "title": "Basic Principles Observed and Reported - Milestone 1",
+          "description": "Basic physical principles observed and mathematically formulated",
+          "status": "Partially Met",
+          "gap_severity": "Major",
+          "impediment_explanation": "Addressed with preliminary observations but lacks long-term quantitative repeatability.",
+          "recommended_action": "Conduct rigorous multi-batch verification experiments for Basic physical principles observed and mathematically formulated.",
+          "recommended_tests": [
+            "Analytical numerical simulation (COMSOL/ANSYS/MATLAB)",
+            "First-order thermodynamics/mass balance verification"
+          ]
+        },
+        {
+          "requirement_id": "GAP-1-2",
+          "target_trl": 1,
+          "category": "TRL 1 Baseline",
+          "title": "Basic Principles Observed and Reported - Milestone 2",
+          "description": "Initial scientific literature review and theoretical conjectures documented",
+          "status": "Partially Met",
+          "gap_severity": "Major",
+          "impediment_explanation": "Addressed with preliminary observations but lacks long-term quantitative repeatability.",
+          "recommended_action": "Conduct rigorous multi-batch verification experiments for Initial scientific literature review and theoretical conjectures documented.",
+          "recommended_tests": [
+            "Analytical numerical simulation (COMSOL/ANSYS/MATLAB)",
+            "First-order thermodynamics/mass balance verification"
+          ]
+        },
+        {
+          "requirement_id": "GAP-1-3",
+          "target_trl": 1,
+          "category": "TRL 1 Baseline",
+          "title": "Basic Principles Observed and Reported - Milestone 3",
+          "description": "No experimental proof of concept yet; purely theoretical or observational",
+          "status": "Partially Met",
+          "gap_severity": "Major",
+          "impediment_explanation": "Addressed with preliminary observations but lacks long-term quantitative repeatability.",
+          "recommended_action": "Conduct rigorous multi-batch verification experiments for No experimental proof of concept yet; purely theoretical or observational.",
+          "recommended_tests": [
+            "Analytical numerical simulation (COMSOL/ANSYS/MATLAB)",
+            "First-order thermodynamics/mass balance verification"
+          ]
+        },
+        {
+          "requirement_id": "GAP-2-1",
+          "target_trl": 2,
+          "category": "TRL 2 Progression Gate",
+          "title": "Technology Concept and/or Application Formulated - Advancement Criterion 1",
+          "description": "Practical application identified and conceptual design outlined",
+          "status": "Missing",
+          "gap_severity": "Critical",
+          "impediment_explanation": "The technology currently lacks validated demonstration of: 'Practical application identified and conceptual design outlined'. This constitutes the primary technical bottleneck preventing advancement to TRL 2.",
+          "recommended_action": "Formulate mathematical system specifications and complete detailed architectural design.",
+          "recommended_tests": [
+            "Analytical numerical simulation (COMSOL/ANSYS/MATLAB)",
+            "First-order thermodynamics/mass balance verification",
+            "Component trade-off study"
+          ]
+        },
+        {
+          "requirement_id": "GAP-2-2",
+          "target_trl": 2,
+          "category": "TRL 2 Progression Gate",
+          "title": "Technology Concept and/or Application Formulated - Advancement Criterion 2",
+          "description": "System architecture sketched with functional block diagrams",
+          "status": "Missing",
+          "gap_severity": "Major",
+          "impediment_explanation": "The technology currently lacks validated demonstration of: 'System architecture sketched with functional block diagrams'. This constitutes the primary technical bottleneck preventing advancement to TRL 2.",
+          "recommended_action": "Formulate mathematical system specifications and complete detailed architectural design.",
+          "recommended_tests": [
+            "Analytical numerical simulation (COMSOL/ANSYS/MATLAB)",
+            "First-order thermodynamics/mass balance verification",
+            "Component trade-off study"
+          ]
+        },
+        {
+          "requirement_id": "GAP-2-3",
+          "target_trl": 2,
+          "category": "TRL 2 Progression Gate",
+          "title": "Technology Concept and/or Application Formulated - Advancement Criterion 3",
+          "description": "Analytical protocols proposed; preliminary simulations or qualitative evaluations",
+          "status": "Missing",
+          "gap_severity": "Major",
+          "impediment_explanation": "The technology currently lacks validated demonstration of: 'Analytical protocols proposed; preliminary simulations or qualitative evaluations'. This constitutes the primary technical bottleneck preventing advancement to TRL 2.",
+          "recommended_action": "Formulate mathematical system specifications and complete detailed architectural design.",
+          "recommended_tests": [
+            "Analytical numerical simulation (COMSOL/ANSYS/MATLAB)",
+            "First-order thermodynamics/mass balance verification",
+            "Component trade-off study"
+          ]
+        }
+      ],
+      "missing_criteria_count": 3,
+      "next_trl_barriers": [
+        "TRL 2 Gate: Absence of demonstrated 'Practical application identified and conceptual design outlined' in required environment.",
+        "TRL 2 Gate: Absence of demonstrated 'System architecture sketched with functional block diagrams' in required environment.",
+        "TRL 2 Gate: Absence of demonstrated 'Analytical protocols proposed; preliminary simulations or qualitative evaluations' in required environment."
+      ],
+      "roadmap": [
+        {
+          "phase_id": "PHASE-1",
+          "phase_name": "Phase 1: Baseline Consolidation & Evidence De-Risking (TRL 1)",
+          "target_trl": 1,
+          "timeline_estimate": "1 - 3 Months",
+          "priority": "High",
+          "milestones": [
+            "Close all unverified claims identified in TRL 1 assessment",
+            "Conduct repeatability tests with statistical variance bounds",
+            "Standardize interface and calibration documentation"
+          ],
+          "validation_protocol": "Analytical numerical simulation (COMSOL/ANSYS/MATLAB)",
+          "deliverables": [
+            "Preliminary Design Document (PDD)",
+            "Interface Control Document (ICD) draft",
+            "Simulation verification report"
+          ]
+        },
+        {
+          "phase_id": "PHASE-2",
+          "phase_name": "Phase 2: Advancement & Environmental Validation (TRL 2)",
+          "target_trl": 2,
+          "timeline_estimate": "1 - 3 Months",
+          "priority": "High",
+          "milestones": [
+            "Integrate subsystem components into Applied Research configuration",
+            "Execute targeted testing: Analytical numerical simulation (COMSOL/ANSYS/MATLAB)",
+            "Quantify operational margins and failure boundaries"
+          ],
+          "validation_protocol": "Formulate mathematical system specifications and complete detailed architectural design.",
+          "deliverables": [
+            "Preliminary Design Document (PDD)",
+            "Interface Control Document (ICD) draft",
+            "Simulation verification report"
+          ]
+        },
+        {
+          "phase_id": "PHASE-3",
+          "phase_name": "Phase 3: Formal Qualification & Deployment Pathway (TRL 3)",
+          "target_trl": 3,
+          "timeline_estimate": "3 - 6 Months",
+          "priority": "Medium",
+          "milestones": [
+            "Prepare complete compliance package for TRL 3",
+            "Conduct Baseline performance calibration under authorized oversight",
+            "Transition manufacturing and operational handover protocols"
+          ],
+          "validation_protocol": "Standardized qualification per Laboratory Proof-of-Concept Report",
+          "deliverables": [
+            "Laboratory Proof-of-Concept Report",
+            "Empirical data logs",
+            "Repeatability analysis dossier"
+          ]
+        }
+      ],
+      "model_explanation": {
+        "primary_reasons": [
+          "Document exhibits strong alignment with Basic Principles Observed and Reported (basic principle, fundamental physics, first principles).",
+          "Evidence confirms component operation in laboratory/benchtop environment."
+        ],
+        "dominant_criteria_met": [
+          "Basic physical principles observed and mathematically formulated"
+        ],
+        "disqualifying_factors": [
+          "Absence of operational environment or field flight test validation prevents classification at TRL 7+."
+        ],
+        "uncertainty_level": "Low",
+        "uncertainty_reason": "High model consensus; dominant TRL 1 exceeds secondary alternative by 44.2% margin.",
+        "top_feature_contributions": [
+          {
+            "feature": "TRL 1 Criteria Match",
+            "weight": 0.591,
+            "impact": "Positive"
+          },
+          {
+            "feature": "TRL 3 Criteria Match",
+            "weight": 0.125,
+            "impact": "Alternative"
+          }
+        ],
+        "is_claim_discounted": false
+      },
+      "meta": {
+        "domain": "Aerospace & Defence"
+      }
+    },
+    "summary": "The analyzed aerospace & defence document corresponds to Technology Readiness Level 1 (Basic Principles Observed and Reported) with a calibrated model confidence of 61.7%. 5 verifiable evidence statements were extracted across 2 pages. Advancement to TRL 2 is currently constrained by 3 milestone gate(s).",
+    "technical_domain": "Aerospace & Defence"
+  },
+  "SAMPLE-TRL3": {
+    "document_id": "DOC-FCAA28C2",
+    "filename": "Silicon-Carbon Nanocomposite Anodes for Lithium Batteries.txt",
+    "file_type": "TXT",
+    "page_count": 2,
+    "word_count": 360,
+    "char_count": 2745,
+    "processed_at": "2026-11-21T09:11:52.811631Z",
+    "prediction": {
+      "predicted_trl": 3,
+      "trl_title": "Analytical and Experimental Proof-of-Concept",
+      "trl_definition": "Active R&D is initiated. This includes analytical studies and laboratory studies to physically validate that the analytical predictions are correct. Validation of separate critical components or functions.",
+      "calibrated_confidence": 0.5042,
+      "confidence_tier": "High",
+      "probability_distribution": {
+        "1": 0.1435,
+        "2": 0.0428,
+        "3": 0.5042,
+        "4": 0.1362,
+        "5": 0.0087,
+        "6": 0.0082,
+        "7": 0.0078,
+        "8": 0.0074,
+        "9": 0.1412
+      },
+      "alternatives": [
+        {
+          "trl": 1,
+          "probability": 0.1435,
+          "description": "Basic Principles Observed and Reported"
+        },
+        {
+          "trl": 9,
+          "probability": 0.1412,
+          "description": "Actual System Proven through Successful Mission Operations"
+        },
+        {
+          "trl": 4,
+          "probability": 0.1362,
+          "description": "Component Validation in Laboratory Environment"
+        }
+      ],
+      "evidence_items": [
+        {
+          "evidence_id": "EV-3-893f3d",
+          "trl_level": 3,
+          "criterion_name": "TRL 3: Laboratory benchtop experiments demonstrating critical function",
+          "quote": "The laboratory experiment demonstrated a reversible specific capacity of 1,420 mAh/g over 50 cycles at C/5 rate in half-cell coin configurations.",
+          "page_number": 1,
+          "strength": "Strong",
+          "confidence_score": 0.97,
+          "verification_status": "Verified Result",
+          "reasoning": "Direct empirical validation with quantitative performance metrics demonstrating laboratory experiment milestone."
+        },
+        {
+          "evidence_id": "EV-3-b6c54b",
+          "trl_level": 3,
+          "criterion_name": "TRL 3: Laboratory benchtop experiments demonstrating critical function",
+          "quote": "We synthesized silicon-carbon composite nanoparticles at 5-gram lab batch scale and tested critical electrochemical proof of concept in half-cell coin configurations.",
+          "page_number": 1,
+          "strength": "Moderate",
+          "confidence_score": 0.79,
+          "verification_status": "Empirical Observation",
+          "reasoning": "Empirical observation confirming practical execution of proof of concept under laboratory or test conditions."
+        },
+        {
+          "evidence_id": "EV-3-b0dc75",
+          "trl_level": 3,
+          "criterion_name": "TRL 3: Laboratory benchtop experiments demonstrating critical function",
+          "quote": "The synthesized powder was characterized using high-resolution X-ray diffraction (XRD) and Raman spectroscopy.",
+          "page_number": 1,
+          "strength": "Moderate",
+          "confidence_score": 0.79,
+          "verification_status": "Empirical Observation",
+          "reasoning": "Empirical observation confirming practical execution of x-ray diffraction under laboratory or test conditions."
+        },
+        {
+          "evidence_id": "EV-3-0d8a9f",
+          "trl_level": 3,
+          "criterion_name": "TRL 3: Laboratory benchtop experiments demonstrating critical function",
+          "quote": "LABORATORY BENCH EXPERIMENTS & CRITICAL FUNCTION PROOF-OF-CONCEPT Laboratory benchtop experiments were conducted using CR2032 half-cell coin cells assembled in an argon-filled glovebox (<0.1 ppm H2O, <0.1 ppm O2).",
+          "page_number": 2,
+          "strength": "Moderate",
+          "confidence_score": 0.79,
+          "verification_status": "Empirical Observation",
+          "reasoning": "Empirical observation confirming practical execution of proof-of-concept under laboratory or test conditions."
+        },
+        {
+          "evidence_id": "EV-4-5514ce",
+          "trl_level": 4,
+          "criterion_name": "TRL 4: Ad-hoc breadboard system constructed and integrated in lab",
+          "quote": "Advancement will require assembling a multi-layer pouch cell breadboard.",
+          "page_number": 2,
+          "strength": "Weak",
+          "confidence_score": 0.48,
+          "verification_status": "Preliminary Validation",
+          "reasoning": "Describes technical architecture and criteria corresponding to breadboard."
+        }
+      ],
+      "evidence_counts_by_trl": {
+        "1": 0,
+        "2": 0,
+        "3": 4,
+        "4": 1,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0
+      },
+      "gap_analysis": [
+        {
+          "requirement_id": "GAP-3-1",
+          "target_trl": 3,
+          "category": "TRL 3 Baseline",
+          "title": "Analytical and Experimental Proof-of-Concept - Milestone 1",
+          "description": "Laboratory benchtop experiments demonstrating critical function",
+          "status": "Met",
+          "gap_severity": "Minor",
+          "impediment_explanation": "Requirement satisfied by verified empirical results in document.",
+          "recommended_action": "Maintain documentation of Laboratory benchtop experiments demonstrating critical function for qualification dossier.",
+          "recommended_tests": [
+            "Benchtop functional characterization",
+            "Spectroscopic / material property measurement"
+          ]
+        },
+        {
+          "requirement_id": "GAP-3-2",
+          "target_trl": 3,
+          "category": "TRL 3 Baseline",
+          "title": "Analytical and Experimental Proof-of-Concept - Milestone 2",
+          "description": "Analytical models corroborated by experimental measurements",
+          "status": "Met",
+          "gap_severity": "Minor",
+          "impediment_explanation": "Requirement satisfied by verified empirical results in document.",
+          "recommended_action": "Maintain documentation of Analytical models corroborated by experimental measurements for qualification dossier.",
+          "recommended_tests": [
+            "Benchtop functional characterization",
+            "Spectroscopic / material property measurement"
+          ]
+        },
+        {
+          "requirement_id": "GAP-3-3",
+          "target_trl": 3,
+          "category": "TRL 3 Baseline",
+          "title": "Analytical and Experimental Proof-of-Concept - Milestone 3",
+          "description": "Proof-of-concept synthesis or small-scale laboratory measurements completed",
+          "status": "Met",
+          "gap_severity": "Minor",
+          "impediment_explanation": "Requirement satisfied by verified empirical results in document.",
+          "recommended_action": "Maintain documentation of Proof-of-concept synthesis or small-scale laboratory measurements completed for qualification dossier.",
+          "recommended_tests": [
+            "Benchtop functional characterization",
+            "Spectroscopic / material property measurement"
+          ]
+        },
+        {
+          "requirement_id": "GAP-4-1",
+          "target_trl": 4,
+          "category": "TRL 4 Progression Gate",
+          "title": "Component Validation in Laboratory Environment - Advancement Criterion 1",
+          "description": "Ad-hoc breadboard system constructed and integrated in lab",
+          "status": "Partially Met",
+          "gap_severity": "Critical",
+          "impediment_explanation": "The technology currently lacks validated demonstration of: 'Ad-hoc breadboard system constructed and integrated in lab'. This constitutes the primary technical bottleneck preventing advancement to TRL 4.",
+          "recommended_action": "Integrate discrete lab components into a functional benchtop breadboard assembly.",
+          "recommended_tests": [
+            "Component inter-communication test",
+            "Signal/power interface verification",
+            "Benchtop closed-loop control test"
+          ]
+        },
+        {
+          "requirement_id": "GAP-4-2",
+          "target_trl": 4,
+          "category": "TRL 4 Progression Gate",
+          "title": "Component Validation in Laboratory Environment - Advancement Criterion 2",
+          "description": "Multiple discrete components interoperating together",
+          "status": "Partially Met",
+          "gap_severity": "Major",
+          "impediment_explanation": "The technology currently lacks validated demonstration of: 'Multiple discrete components interoperating together'. This constitutes the primary technical bottleneck preventing advancement to TRL 4.",
+          "recommended_action": "Integrate discrete lab components into a functional benchtop breadboard assembly.",
+          "recommended_tests": [
+            "Component inter-communication test",
+            "Signal/power interface verification",
+            "Benchtop closed-loop control test"
+          ]
+        },
+        {
+          "requirement_id": "GAP-4-3",
+          "target_trl": 4,
+          "category": "TRL 4 Progression Gate",
+          "title": "Component Validation in Laboratory Environment - Advancement Criterion 3",
+          "description": "Functional interfaces tested against baseline lab requirements",
+          "status": "Partially Met",
+          "gap_severity": "Major",
+          "impediment_explanation": "The technology currently lacks validated demonstration of: 'Functional interfaces tested against baseline lab requirements'. This constitutes the primary technical bottleneck preventing advancement to TRL 4.",
+          "recommended_action": "Integrate discrete lab components into a functional benchtop breadboard assembly.",
+          "recommended_tests": [
+            "Component inter-communication test",
+            "Signal/power interface verification",
+            "Benchtop closed-loop control test"
+          ]
+        }
+      ],
+      "missing_criteria_count": 0,
+      "next_trl_barriers": [
+        "TRL 4 Gate: Absence of demonstrated 'Ad-hoc breadboard system constructed and integrated in lab' in required environment.",
+        "TRL 4 Gate: Absence of demonstrated 'Multiple discrete components interoperating together' in required environment.",
+        "TRL 4 Gate: Absence of demonstrated 'Functional interfaces tested against baseline lab requirements' in required environment."
+      ],
+      "roadmap": [
+        {
+          "phase_id": "PHASE-1",
+          "phase_name": "Phase 1: Baseline Consolidation & Evidence De-Risking (TRL 3)",
+          "target_trl": 3,
+          "timeline_estimate": "3 - 6 Months",
+          "priority": "High",
+          "milestones": [
+            "Close all unverified claims identified in TRL 3 assessment",
+            "Conduct repeatability tests with statistical variance bounds",
+            "Standardize interface and calibration documentation"
+          ],
+          "validation_protocol": "Benchtop functional characterization",
+          "deliverables": [
+            "Laboratory Proof-of-Concept Report",
+            "Empirical data logs",
+            "Repeatability analysis dossier"
+          ]
+        },
+        {
+          "phase_id": "PHASE-2",
+          "phase_name": "Phase 2: Advancement & Environmental Validation (TRL 4)",
+          "target_trl": 4,
+          "timeline_estimate": "4 - 8 Months",
+          "priority": "High",
+          "milestones": [
+            "Integrate subsystem components into Laboratory Validation configuration",
+            "Execute targeted testing: Component inter-communication test",
+            "Quantify operational margins and failure boundaries"
+          ],
+          "validation_protocol": "Integrate discrete lab components into a functional benchtop breadboard assembly.",
+          "deliverables": [
+            "Integrated Breadboard Test Report",
+            "Breadboard schematic & firmware release",
+            "Error margin quantification"
+          ]
+        },
+        {
+          "phase_id": "PHASE-3",
+          "phase_name": "Phase 3: Formal Qualification & Deployment Pathway (TRL 5)",
+          "target_trl": 5,
+          "timeline_estimate": "6 - 12 Months",
+          "priority": "Medium",
+          "milestones": [
+            "Prepare complete compliance package for TRL 5",
+            "Conduct Simulated operational medium/gas exposure under authorized oversight",
+            "Transition manufacturing and operational handover protocols"
+          ],
+          "validation_protocol": "Standardized qualification per Environmental Test Report (ETR)",
+          "deliverables": [
+            "Environmental Test Report (ETR)",
+            "Failure mode and effects analysis (FMEA)",
+            "Degradation rate analysis"
+          ]
+        }
+      ],
+      "model_explanation": {
+        "primary_reasons": [
+          "Document exhibits strong alignment with Analytical and Experimental Proof-of-Concept (proof of concept, proof-of-concept, laboratory experiment).",
+          "Verified quantitative engineering metrics detected (1.600000023841858% density) supporting empirical validation.",
+          "Evidence confirms component operation in laboratory/benchtop environment."
+        ],
+        "dominant_criteria_met": [
+          "Laboratory benchtop experiments demonstrating critical function"
+        ],
+        "disqualifying_factors": [],
+        "uncertainty_level": "Low",
+        "uncertainty_reason": "High model consensus; dominant TRL 3 exceeds secondary alternative by 36.1% margin.",
+        "top_feature_contributions": [
+          {
+            "feature": "TRL 3 Criteria Match",
+            "weight": 0.438,
+            "impact": "Positive"
+          },
+          {
+            "feature": "TRL 4 Criteria Match",
+            "weight": 0.067,
+            "impact": "Alternative"
+          }
+        ],
+        "is_claim_discounted": false
+      },
+      "meta": {
+        "domain": "Advanced Materials & Nanotechnology"
+      }
+    },
+    "summary": "The analyzed advanced materials & nanotechnology document corresponds to Technology Readiness Level 3 (Analytical and Experimental Proof-of-Concept) with a calibrated model confidence of 50.4%. 5 verifiable evidence statements were extracted across 2 pages. Advancement to TRL 4 is currently constrained by 3 milestone gate(s).",
+    "technical_domain": "Advanced Materials & Nanotechnology"
+  },
+  "SAMPLE-TRL5": {
+    "document_id": "DOC-15E4EF85",
+    "filename": "Thermal Vacuum Chamber Testing of CubeSat Transceiver.txt",
+    "file_type": "TXT",
+    "page_count": 2,
+    "word_count": 368,
+    "char_count": 2743,
+    "processed_at": "2026-11-21T09:11:52.874550Z",
+    "prediction": {
+      "predicted_trl": 5,
+      "trl_title": "Component Validation in Relevant Environment",
+      "trl_definition": "Fidelity of breadboard technology increases significantly. The basic technological components are integrated with reasonably realistic supporting elements so they can be tested in a simulated environment.",
+      "calibrated_confidence": 0.3075,
+      "confidence_tier": "Moderate",
+      "probability_distribution": {
+        "1": 0.0612,
+        "2": 0.0469,
+        "3": 0.0786,
+        "4": 0.201,
+        "5": 0.3075,
+        "6": 0.0533,
+        "7": 0.1046,
+        "8": 0.05,
+        "9": 0.0969
+      },
+      "alternatives": [
+        {
+          "trl": 4,
+          "probability": 0.201,
+          "description": "Component Validation in Laboratory Environment"
+        },
+        {
+          "trl": 7,
+          "probability": 0.1046,
+          "description": "System Prototype Demonstration in Operational Environment"
+        },
+        {
+          "trl": 9,
+          "probability": 0.0969,
+          "description": "Actual System Proven through Successful Mission Operations"
+        }
+      ],
+      "evidence_items": [
+        {
+          "evidence_id": "EV-1-95c65b",
+          "trl_level": 1,
+          "criterion_name": "TRL 1: Basic physical principles observed and mathematically formulated",
+          "quote": "MEASURED PERFORMANCE DATA & VERIFIED RESULTS During TVAC testing, telemetry and signal integrity were monitored continuously across 144 hours of simulated environmental exposure: - Bit Error Rate (BER): The measured bit error rate remained below 1.2 \u00d7 10^-7 across all temperature extremes at -40\u00b0C and +85\u00b0C. - Frequency Stability: Measured local oscillator drift was within \u00b11.5 ppm, satisfying mission link budget requirements. - Thermal Dissipation: Baseplate temperature stabilization was achieved at 64.2\u00b0C during high-power transmission cycles with no thermal runaway observed. - Vibration Readiness: Pre-test sine burst sweep (15g, 20-2000 Hz) confirmed structural integrity of the brassboard card cage.",
+          "page_number": 2,
+          "strength": "Strong",
+          "confidence_score": 0.92,
+          "verification_status": "Verified Result",
+          "reasoning": "Direct empirical validation with quantitative performance metrics demonstrating observed milestone."
+        },
+        {
+          "evidence_id": "EV-4-3debf1",
+          "trl_level": 4,
+          "criterion_name": "TRL 4: Ad-hoc breadboard system constructed and integrated in lab",
+          "quote": "MATURITY ASSESSMENT AND NEXT STEPS Testing demonstrates successful component validation in a relevant environment (TRL 5).",
+          "page_number": 2,
+          "strength": "Weak",
+          "confidence_score": 0.48,
+          "verification_status": "Preliminary Validation",
+          "reasoning": "Describes technical architecture and criteria corresponding to component validation."
+        },
+        {
+          "evidence_id": "EV-5-54a2e2",
+          "trl_level": 5,
+          "criterion_name": "TRL 5: High-fidelity breadboard or brassboard tested in simulated operational conditions",
+          "quote": "- Thermal cycling profiles: 12 complete thermal cycles ranging from -40\u00b0C to +85\u00b0C with a dwell time of 2 hours at each thermal plateau. - RF transmit load: Continuously operated at 5.0 W RF transmit power at 2.24 GHz into a calibrated high-vacuum coaxial feedthrough load.",
+          "page_number": 1,
+          "strength": "Strong",
+          "confidence_score": 0.97,
+          "verification_status": "Verified Result",
+          "reasoning": "Direct empirical validation with quantitative performance metrics demonstrating thermal cycling milestone."
+        },
+        {
+          "evidence_id": "EV-5-8af03f",
+          "trl_level": 5,
+          "criterion_name": "TRL 5: High-fidelity breadboard or brassboard tested in simulated operational conditions",
+          "quote": "Testing was conducted in a thermal vacuum (TVAC) chamber to validate subsystem performance under simulated low Earth orbit (LEO) orbital conditions.",
+          "page_number": 1,
+          "strength": "Moderate",
+          "confidence_score": 0.79,
+          "verification_status": "Empirical Observation",
+          "reasoning": "Empirical observation confirming practical execution of thermal vacuum under laboratory or test conditions."
+        },
+        {
+          "evidence_id": "EV-5-95a73c",
+          "trl_level": 5,
+          "criterion_name": "TRL 5: High-fidelity breadboard or brassboard tested in simulated operational conditions",
+          "quote": "ENGINEERING TEST REPORT: AEROSPACE & SATELLITE COMMUNICATIONS Title: Thermal Vacuum Chamber Testing of S-Band CubeSat Transceiver Brassboard Organization: Orbital Telemetry Systems Laboratory Document Number: TR-OTS-2025-TVAC-09 | Date: August 2025 1.",
+          "page_number": 1,
+          "strength": "Moderate",
+          "confidence_score": 0.67,
+          "verification_status": "Preliminary Validation",
+          "reasoning": "Describes technical architecture and criteria corresponding to brassboard."
+        },
+        {
+          "evidence_id": "EV-5-e6787f",
+          "trl_level": 5,
+          "criterion_name": "TRL 5: High-fidelity breadboard or brassboard tested in simulated operational conditions",
+          "quote": "TEST SCOPE & OBJECTIVE This report documents relevant environment testing of a high-fidelity brassboard unit of the S-band CubeSat Transceiver.",
+          "page_number": 1,
+          "strength": "Moderate",
+          "confidence_score": 0.67,
+          "verification_status": "Preliminary Validation",
+          "reasoning": "Describes technical architecture and criteria corresponding to relevant environment."
+        },
+        {
+          "evidence_id": "EV-6-d01cbb",
+          "trl_level": 6,
+          "criterion_name": "TRL 6: Full engineering prototype / engineering development model (EDM) built",
+          "quote": "Progression to TRL 6 requires fabricating an engineering development model and executing subscale flight tests or rocket sled tests.",
+          "page_number": 2,
+          "strength": "Moderate",
+          "confidence_score": 0.62,
+          "verification_status": "Preliminary Validation",
+          "reasoning": "Describes technical architecture and criteria corresponding to engineering development model."
+        }
+      ],
+      "evidence_counts_by_trl": {
+        "1": 1,
+        "2": 0,
+        "3": 0,
+        "4": 1,
+        "5": 4,
+        "6": 1,
+        "7": 0,
+        "8": 0,
+        "9": 0
+      },
+      "gap_analysis": [
+        {
+          "requirement_id": "GAP-5-1",
+          "target_trl": 5,
+          "category": "TRL 5 Baseline",
+          "title": "Component Validation in Relevant Environment - Milestone 1",
+          "description": "High-fidelity breadboard or brassboard tested in simulated operational conditions",
+          "status": "Met",
+          "gap_severity": "Minor",
+          "impediment_explanation": "Requirement satisfied by verified empirical results in document.",
+          "recommended_action": "Maintain documentation of High-fidelity breadboard or brassboard tested in simulated operational conditions for qualification dossier.",
+          "recommended_tests": [
+            "Climatic chamber thermal cycling (-40\u00b0C to +85\u00b0C)",
+            "Vibration & acoustic excitation sweep"
+          ]
+        },
+        {
+          "requirement_id": "GAP-5-2",
+          "target_trl": 5,
+          "category": "TRL 5 Baseline",
+          "title": "Component Validation in Relevant Environment - Milestone 2",
+          "description": "Thermal, vibration, acoustic, or chemical stress testing in relevant environment",
+          "status": "Met",
+          "gap_severity": "Minor",
+          "impediment_explanation": "Requirement satisfied by verified empirical results in document.",
+          "recommended_action": "Maintain documentation of Thermal, vibration, acoustic, or chemical stress testing in relevant environment for qualification dossier.",
+          "recommended_tests": [
+            "Climatic chamber thermal cycling (-40\u00b0C to +85\u00b0C)",
+            "Vibration & acoustic excitation sweep"
+          ]
+        },
+        {
+          "requirement_id": "GAP-5-3",
+          "target_trl": 5,
+          "category": "TRL 5 Baseline",
+          "title": "Component Validation in Relevant Environment - Milestone 3",
+          "description": "Subsystem interfaces tested under realistic boundary conditions",
+          "status": "Met",
+          "gap_severity": "Minor",
+          "impediment_explanation": "Requirement satisfied by verified empirical results in document.",
+          "recommended_action": "Maintain documentation of Subsystem interfaces tested under realistic boundary conditions for qualification dossier.",
+          "recommended_tests": [
+            "Climatic chamber thermal cycling (-40\u00b0C to +85\u00b0C)",
+            "Vibration & acoustic excitation sweep"
+          ]
+        },
+        {
+          "requirement_id": "GAP-6-1",
+          "target_trl": 6,
+          "category": "TRL 6 Progression Gate",
+          "title": "System/Subsystem Model Demonstration in Relevant Environment - Advancement Criterion 1",
+          "description": "Full engineering prototype / engineering development model (EDM) built",
+          "status": "Partially Met",
+          "gap_severity": "Critical",
+          "impediment_explanation": "The technology currently lacks validated demonstration of: 'Full engineering prototype / engineering development model (EDM) built'. This constitutes the primary technical bottleneck preventing advancement to TRL 6.",
+          "recommended_action": "Construct a full-scale engineering development prototype and conduct field/pilot trials.",
+          "recommended_tests": [
+            "Pilot plant continuous endurance run (100+ hours)",
+            "Subscale flight or mobile field rig demonstration",
+            "Transient load rejection & fault injection testing"
+          ]
+        },
+        {
+          "requirement_id": "GAP-6-2",
+          "target_trl": 6,
+          "category": "TRL 6 Progression Gate",
+          "title": "System/Subsystem Model Demonstration in Relevant Environment - Advancement Criterion 2",
+          "description": "Demonstration in relevant operational-like environment (e.g. mobile field rig, test aircraft)",
+          "status": "Partially Met",
+          "gap_severity": "Major",
+          "impediment_explanation": "The technology currently lacks validated demonstration of: 'Demonstration in relevant operational-like environment (e.g. mobile field rig, test aircraft)'. This constitutes the primary technical bottleneck preventing advancement to TRL 6.",
+          "recommended_action": "Construct a full-scale engineering development prototype and conduct field/pilot trials.",
+          "recommended_tests": [
+            "Pilot plant continuous endurance run (100+ hours)",
+            "Subscale flight or mobile field rig demonstration",
+            "Transient load rejection & fault injection testing"
+          ]
+        },
+        {
+          "requirement_id": "GAP-6-3",
+          "target_trl": 6,
+          "category": "TRL 6 Progression Gate",
+          "title": "System/Subsystem Model Demonstration in Relevant Environment - Advancement Criterion 3",
+          "description": "System-level performance envelope and margin quantified",
+          "status": "Partially Met",
+          "gap_severity": "Major",
+          "impediment_explanation": "The technology currently lacks validated demonstration of: 'System-level performance envelope and margin quantified'. This constitutes the primary technical bottleneck preventing advancement to TRL 6.",
+          "recommended_action": "Construct a full-scale engineering development prototype and conduct field/pilot trials.",
+          "recommended_tests": [
+            "Pilot plant continuous endurance run (100+ hours)",
+            "Subscale flight or mobile field rig demonstration",
+            "Transient load rejection & fault injection testing"
+          ]
+        }
+      ],
+      "missing_criteria_count": 0,
+      "next_trl_barriers": [
+        "TRL 6 Gate: Absence of demonstrated 'Full engineering prototype / engineering development model (EDM) built' in required environment.",
+        "TRL 6 Gate: Absence of demonstrated 'Demonstration in relevant operational-like environment (e.g. mobile field rig, test aircraft)' in required environment.",
+        "TRL 6 Gate: Absence of demonstrated 'System-level performance envelope and margin quantified' in required environment."
+      ],
+      "roadmap": [
+        {
+          "phase_id": "PHASE-1",
+          "phase_name": "Phase 1: Baseline Consolidation & Evidence De-Risking (TRL 5)",
+          "target_trl": 5,
+          "timeline_estimate": "6 - 12 Months",
+          "priority": "High",
+          "milestones": [
+            "Close all unverified claims identified in TRL 5 assessment",
+            "Conduct repeatability tests with statistical variance bounds",
+            "Standardize interface and calibration documentation"
+          ],
+          "validation_protocol": "Climatic chamber thermal cycling (-40\u00b0C to +85\u00b0C)",
+          "deliverables": [
+            "Environmental Test Report (ETR)",
+            "Failure mode and effects analysis (FMEA)",
+            "Degradation rate analysis"
+          ]
+        },
+        {
+          "phase_id": "PHASE-2",
+          "phase_name": "Phase 2: Advancement & Environmental Validation (TRL 6)",
+          "target_trl": 6,
+          "timeline_estimate": "9 - 18 Months",
+          "priority": "High",
+          "milestones": [
+            "Integrate subsystem components into Engineering Prototype configuration",
+            "Execute targeted testing: Pilot plant continuous endurance run (100+ hours)",
+            "Quantify operational margins and failure boundaries"
+          ],
+          "validation_protocol": "Construct a full-scale engineering development prototype and conduct field/pilot trials.",
+          "deliverables": [
+            "Engineering Development Model (EDM) Dossier",
+            "Field Demonstration Logbook",
+            "System-level margin documentation"
+          ]
+        },
+        {
+          "phase_id": "PHASE-3",
+          "phase_name": "Phase 3: Formal Qualification & Deployment Pathway (TRL 7)",
+          "target_trl": 7,
+          "timeline_estimate": "12 - 24 Months",
+          "priority": "Medium",
+          "milestones": [
+            "Prepare complete compliance package for TRL 7",
+            "Conduct Host platform electromagnetic & telemetry interoperability under authorized oversight",
+            "Transition manufacturing and operational handover protocols"
+          ],
+          "validation_protocol": "Standardized qualification per Operational Demonstration Flight/Field Report",
+          "deliverables": [
+            "Operational Demonstration Flight/Field Report",
+            "Safety hazard analysis",
+            "Operational envelope sign-off"
+          ]
+        }
+      ],
+      "model_explanation": {
+        "primary_reasons": [
+          "Document exhibits strong alignment with Component Validation in Relevant Environment (relevant environment, simulated environment, brassboard).",
+          "Verified quantitative engineering metrics detected (1.2000000476837158% density) supporting empirical validation.",
+          "Evidence confirms component operation in laboratory/benchtop environment.",
+          "Evidence validates performance under simulated environmental stress (thermal/vibration/relevant conditions).",
+          "Evidence validates full operational deployment in actual field/flight/clinical environment."
+        ],
+        "dominant_criteria_met": [
+          "High-fidelity breadboard or brassboard tested in simulated operational conditions"
+        ],
+        "disqualifying_factors": [],
+        "uncertainty_level": "High",
+        "uncertainty_reason": "High epistemic uncertainty; evidence spans multiple developmental milestones or is relatively sparse.",
+        "top_feature_contributions": [
+          {
+            "feature": "TRL 1 Criteria Match",
+            "weight": 0.045,
+            "impact": "Alternative"
+          },
+          {
+            "feature": "TRL 4 Criteria Match",
+            "weight": 0.067,
+            "impact": "Alternative"
+          },
+          {
+            "feature": "TRL 5 Criteria Match",
+            "weight": 0.375,
+            "impact": "Positive"
+          },
+          {
+            "feature": "TRL 6 Criteria Match",
+            "weight": 0.214,
+            "impact": "Alternative"
+          },
+          {
+            "feature": "TRL 7 Criteria Match",
+            "weight": 0.071,
+            "impact": "Alternative"
+          }
+        ],
+        "is_claim_discounted": false
+      },
+      "meta": {
+        "domain": "Aerospace & Defence"
+      }
+    },
+    "summary": "The analyzed aerospace & defence document corresponds to Technology Readiness Level 5 (Component Validation in Relevant Environment) with a calibrated model confidence of 30.7%. 7 verifiable evidence statements were extracted across 2 pages. Advancement to TRL 6 is currently constrained by 3 milestone gate(s).",
+    "technical_domain": "Aerospace & Defence"
+  },
+  "SAMPLE-TRL7": {
+    "document_id": "DOC-B2CF60B9",
+    "filename": "Operational Sea Trials of Autonomous Offshore Wind Submersible.txt",
+    "file_type": "TXT",
+    "page_count": 2,
+    "word_count": 357,
+    "char_count": 2735,
+    "processed_at": "2026-11-21T09:11:52.909190Z",
+    "prediction": {
+      "predicted_trl": 9,
+      "trl_title": "Actual System Proven through Successful Mission Operations",
+      "trl_definition": "Actual application of the technology in its final form and under mission conditions, such as those encountered through operational mission flights or commercial rollout.",
+      "calibrated_confidence": 0.3525,
+      "confidence_tier": "Moderate",
+      "probability_distribution": {
+        "1": 0.2029,
+        "2": 0.0082,
+        "3": 0.0197,
+        "4": 0.0385,
+        "5": 0.0365,
+        "6": 0.0347,
+        "7": 0.2656,
+        "8": 0.0415,
+        "9": 0.3525
+      },
+      "alternatives": [
+        {
+          "trl": 7,
+          "probability": 0.2656,
+          "description": "System Prototype Demonstration in Operational Environment"
+        },
+        {
+          "trl": 1,
+          "probability": 0.2029,
+          "description": "Basic Principles Observed and Reported"
+        }
+      ],
+      "evidence_items": [
+        {
+          "evidence_id": "EV-7-146f14",
+          "trl_level": 7,
+          "criterion_name": "TRL 7: Full-scale operational prototype tested in actual operating environment",
+          "quote": "TRIAL RESULTS & VERIFIED EMPIRICAL METRICS During 14 days of operational sea trials, the system demonstrated: - Autonomous navigation and inspection: The operational prototype successfully acquired, tracked, and autonomously inspected 14 monopile turbine foundations without umbilical tethering. - Defect Detection: Deep learning visual inspection cameras processed 4K video feeds in real time, detecting 18 localized weld corrosion pits with a precision of 94.2%. - Acoustic Positioning: Ultra-short baseline (USBL) acoustic positioning maintained sub-meter relative localization accuracy across 42 hours of cumulative dive time. - Autonomous Docking: Autonomous docking into the subsea recharge basket was accomplished in 8 out of 8 attempts in 1.8 knot current.",
+          "page_number": 2,
+          "strength": "Strong",
+          "confidence_score": 0.92,
+          "verification_status": "Verified Result",
+          "reasoning": "Direct empirical validation with quantitative performance metrics demonstrating operational prototype milestone."
+        },
+        {
+          "evidence_id": "EV-7-a950ff",
+          "trl_level": 7,
+          "criterion_name": "TRL 7: Full-scale operational prototype tested in actual operating environment",
+          "quote": "EXECUTIVE SUMMARY & MISSION OBJECTIVE An operational prototype of the AeroSub-7 hybrid autonomous underwater vehicle (AUV) was deployed from a commercial offshore support vessel at the Dogger Bank offshore wind farm in the North Sea.",
+          "page_number": 1,
+          "strength": "Moderate",
+          "confidence_score": 0.74,
+          "verification_status": "Empirical Observation",
+          "reasoning": "Empirical observation confirming practical execution of operational prototype under laboratory or test conditions."
+        },
+        {
+          "evidence_id": "EV-7-d6a429",
+          "trl_level": 7,
+          "criterion_name": "TRL 7: Full-scale operational prototype tested in actual operating environment",
+          "quote": "The operational prototype system was demonstrated under genuine marine operational conditions to evaluate autonomous cathodic inspection, subsea weld defect recognition, and acoustic positioning in an operational offshore energy environment.",
+          "page_number": 1,
+          "strength": "Moderate",
+          "confidence_score": 0.74,
+          "verification_status": "Empirical Observation",
+          "reasoning": "Empirical observation confirming practical execution of operational prototype under laboratory or test conditions."
+        },
+        {
+          "evidence_id": "EV-7-21660d",
+          "trl_level": 7,
+          "criterion_name": "TRL 7: Full-scale operational prototype tested in actual operating environment",
+          "quote": "FIELD DEMONSTRATION & OPERATIONAL VALIDATION REPORT Title: Operational Sea Trials of Autonomous Offshore Inspection Submersible (AeroSub-7) Vessel / Location: Dogger Bank Offshore Wind Farm, North Sea | Host Vessel: MV Northern Seeker Report ID: OPS-SEA-2025-07 | Date: September 2025 1.",
+          "page_number": 1,
+          "strength": "Moderate",
+          "confidence_score": 0.62,
+          "verification_status": "Preliminary Validation",
+          "reasoning": "Describes technical architecture and criteria corresponding to sea trial."
+        },
+        {
+          "evidence_id": "EV-9-de51cc",
+          "trl_level": 9,
+          "criterion_name": "TRL 9: Operational mission flights or commercial service sustained with zero critical faults",
+          "quote": "To achieve TRL 8, the design must undergo formal classification society type qualification (DNV-ST-N001 / ISO 13628-8), environmental burn-in testing, and manufacturing documentation freeze for commercial production.",
+          "page_number": 2,
+          "strength": "Weak",
+          "confidence_score": 0.53,
+          "verification_status": "Preliminary Validation",
+          "reasoning": "Describes technical architecture and criteria corresponding to commercial production."
+        }
+      ],
+      "evidence_counts_by_trl": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 4,
+        "8": 0,
+        "9": 1
+      },
+      "gap_analysis": [
+        {
+          "requirement_id": "GAP-9-1",
+          "target_trl": 9,
+          "category": "TRL 9 Baseline",
+          "title": "Actual System Proven through Successful Mission Operations - Milestone 1",
+          "description": "Operational mission flights or commercial service sustained with zero critical faults",
+          "status": "Missing",
+          "gap_severity": "Critical",
+          "impediment_explanation": "No direct empirical validation for Operational mission flights or commercial service sustained with zero critical faults found in submitted documentation.",
+          "recommended_action": "Prioritize immediate execution of baseline tests to establish Operational mission flights or commercial service sustained with zero critical faults.",
+          "recommended_tests": [
+            "Continuous mission telemetry monitoring",
+            "Fleet-wide MTBF and reliability growth tracking"
+          ]
+        },
+        {
+          "requirement_id": "GAP-9-2",
+          "target_trl": 9,
+          "category": "TRL 9 Baseline",
+          "title": "Actual System Proven through Successful Mission Operations - Milestone 2",
+          "description": "Mass production, fleet deployment, or broad public/industrial adoption",
+          "status": "Missing",
+          "gap_severity": "Critical",
+          "impediment_explanation": "No direct empirical validation for Mass production, fleet deployment, or broad public/industrial adoption found in submitted documentation.",
+          "recommended_action": "Prioritize immediate execution of baseline tests to establish Mass production, fleet deployment, or broad public/industrial adoption.",
+          "recommended_tests": [
+            "Continuous mission telemetry monitoring",
+            "Fleet-wide MTBF and reliability growth tracking"
+          ]
+        },
+        {
+          "requirement_id": "GAP-9-3",
+          "target_trl": 9,
+          "category": "TRL 9 Baseline",
+          "title": "Actual System Proven through Successful Mission Operations - Milestone 3",
+          "description": "Reliability, maintenance, and lifetime statistics empirically validated in field",
+          "status": "Missing",
+          "gap_severity": "Critical",
+          "impediment_explanation": "No direct empirical validation for Reliability, maintenance, and lifetime statistics empirically validated in field found in submitted documentation.",
+          "recommended_action": "Prioritize immediate execution of baseline tests to establish Reliability, maintenance, and lifetime statistics empirically validated in field.",
+          "recommended_tests": [
+            "Continuous mission telemetry monitoring",
+            "Fleet-wide MTBF and reliability growth tracking"
+          ]
+        }
+      ],
+      "missing_criteria_count": 3,
+      "next_trl_barriers": [],
+      "roadmap": [
+        {
+          "phase_id": "PHASE-1",
+          "phase_name": "Phase 1: Baseline Consolidation & Evidence De-Risking (TRL 9)",
+          "target_trl": 9,
+          "timeline_estimate": "Ongoing / 12+ Months",
+          "priority": "High",
+          "milestones": [
+            "Close all unverified claims identified in TRL 9 assessment",
+            "Conduct repeatability tests with statistical variance bounds",
+            "Standardize interface and calibration documentation"
+          ],
+          "validation_protocol": "Continuous mission telemetry monitoring",
+          "deliverables": [
+            "Mission Completion Certificate",
+            "Commercial Service Reliability Report",
+            "Customer SLA & warranty audit"
+          ]
+        },
+        {
+          "phase_id": "PHASE-2",
+          "phase_name": "Phase 2: Advancement & Environmental Validation (TRL 9)",
+          "target_trl": 9,
+          "timeline_estimate": "Ongoing / 12+ Months",
+          "priority": "Medium",
+          "milestones": [
+            "Integrate subsystem components into Commercial & Mission Operations configuration",
+            "Execute targeted testing: Continuous mission telemetry monitoring",
+            "Quantify operational margins and failure boundaries"
+          ],
+          "validation_protocol": "Deploy into continuous commercial service or operational mission flights.",
+          "deliverables": [
+            "Mission Completion Certificate",
+            "Commercial Service Reliability Report",
+            "Customer SLA & warranty audit"
+          ]
+        },
+        {
+          "phase_id": "PHASE-3",
+          "phase_name": "Phase 3: Formal Qualification & Deployment Pathway (TRL 9)",
+          "target_trl": 9,
+          "timeline_estimate": "Ongoing / 12+ Months",
+          "priority": "Low",
+          "milestones": [
+            "Prepare complete compliance package for TRL 9",
+            "Conduct Post-market surveillance and preventive maintenance audits under authorized oversight",
+            "Transition manufacturing and operational handover protocols"
+          ],
+          "validation_protocol": "Standardized qualification per Mission Completion Certificate",
+          "deliverables": [
+            "Mission Completion Certificate",
+            "Commercial Service Reliability Report",
+            "Customer SLA & warranty audit"
+          ]
+        }
+      ],
+      "model_explanation": {
+        "primary_reasons": [
+          "Document exhibits strong alignment with Actual System Proven through Successful Mission Operations (commercial production).",
+          "Evidence validates full operational deployment in actual field/flight/clinical environment."
+        ],
+        "dominant_criteria_met": [
+          "Operational mission flights or commercial service sustained with zero critical faults"
+        ],
+        "disqualifying_factors": [],
+        "uncertainty_level": "High",
+        "uncertainty_reason": "High epistemic uncertainty; evidence spans multiple developmental milestones or is relatively sparse.",
+        "top_feature_contributions": [
+          {
+            "feature": "TRL 7 Criteria Match",
+            "weight": 0.286,
+            "impact": "Alternative"
+          },
+          {
+            "feature": "TRL 9 Criteria Match",
+            "weight": 0.062,
+            "impact": "Positive"
+          }
+        ],
+        "is_claim_discounted": false
+      },
+      "meta": {
+        "domain": "Robotics & Autonomous Systems"
+      }
+    },
+    "summary": "The analyzed robotics & autonomous systems document corresponds to Technology Readiness Level 9 (Actual System Proven through Successful Mission Operations) with a calibrated model confidence of 35.2%. 5 verifiable evidence statements were extracted across 2 pages. Advancement to TRL 9 is currently constrained by 0 milestone gate(s).",
+    "technical_domain": "Robotics & Autonomous Systems"
+  },
+  "SAMPLE-TRL9": {
+    "document_id": "DOC-EEC79AF0",
+    "filename": "Autonomous Star Tracker Mission Operations - 5 Years On-Orbit.txt",
+    "file_type": "TXT",
+    "page_count": 2,
+    "word_count": 333,
+    "char_count": 2520,
+    "processed_at": "2026-11-21T09:11:52.948106Z",
+    "prediction": {
+      "predicted_trl": 9,
+      "trl_title": "Actual System Proven through Successful Mission Operations",
+      "trl_definition": "Actual application of the technology in its final form and under mission conditions, such as those encountered through operational mission flights or commercial rollout.",
+      "calibrated_confidence": 0.617,
+      "confidence_tier": "High",
+      "probability_distribution": {
+        "1": 0.1854,
+        "2": 0.0071,
+        "3": 0.01,
+        "4": 0.0399,
+        "5": 0.0379,
+        "6": 0.036,
+        "7": 0.0342,
+        "8": 0.0325,
+        "9": 0.617
+      },
+      "alternatives": [
+        {
+          "trl": 1,
+          "probability": 0.1854,
+          "description": "Basic Principles Observed and Reported"
+        }
+      ],
+      "evidence_items": [
+        {
+          "evidence_id": "EV-9-025acf",
+          "trl_level": 9,
+          "criterion_name": "TRL 9: Operational mission flights or commercial service sustained with zero critical faults",
+          "quote": "COMMERCIAL PRODUCTION & FLEET OPERATIONS DATA The star tracker entered full series production in 2019 under AS9100 Rev D quality management standards.",
+          "page_number": 1,
+          "strength": "Moderate",
+          "confidence_score": 0.67,
+          "verification_status": "Preliminary Validation",
+          "reasoning": "Describes technical architecture and criteria corresponding to commercial production."
+        },
+        {
+          "evidence_id": "EV-9-483b0e",
+          "trl_level": 9,
+          "criterion_name": "TRL 9: Operational mission flights or commercial service sustained with zero critical faults",
+          "quote": "Fleet deployment logs, commercial revenue service records, and multi-year operational uptime rigorously substantiate TRL 9 maturity according to NASA, DoD, and ISO 16290 standards.",
+          "page_number": 2,
+          "strength": "Moderate",
+          "confidence_score": 0.67,
+          "verification_status": "Preliminary Validation",
+          "reasoning": "Describes technical architecture and criteria corresponding to operational uptime."
+        }
+      ],
+      "evidence_counts_by_trl": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 2
+      },
+      "gap_analysis": [
+        {
+          "requirement_id": "GAP-9-1",
+          "target_trl": 9,
+          "category": "TRL 9 Baseline",
+          "title": "Actual System Proven through Successful Mission Operations - Milestone 1",
+          "description": "Operational mission flights or commercial service sustained with zero critical faults",
+          "status": "Partially Met",
+          "gap_severity": "Major",
+          "impediment_explanation": "Addressed with preliminary observations but lacks long-term quantitative repeatability.",
+          "recommended_action": "Conduct rigorous multi-batch verification experiments for Operational mission flights or commercial service sustained with zero critical faults.",
+          "recommended_tests": [
+            "Continuous mission telemetry monitoring",
+            "Fleet-wide MTBF and reliability growth tracking"
+          ]
+        },
+        {
+          "requirement_id": "GAP-9-2",
+          "target_trl": 9,
+          "category": "TRL 9 Baseline",
+          "title": "Actual System Proven through Successful Mission Operations - Milestone 2",
+          "description": "Mass production, fleet deployment, or broad public/industrial adoption",
+          "status": "Partially Met",
+          "gap_severity": "Major",
+          "impediment_explanation": "Addressed with preliminary observations but lacks long-term quantitative repeatability.",
+          "recommended_action": "Conduct rigorous multi-batch verification experiments for Mass production, fleet deployment, or broad public/industrial adoption.",
+          "recommended_tests": [
+            "Continuous mission telemetry monitoring",
+            "Fleet-wide MTBF and reliability growth tracking"
+          ]
+        },
+        {
+          "requirement_id": "GAP-9-3",
+          "target_trl": 9,
+          "category": "TRL 9 Baseline",
+          "title": "Actual System Proven through Successful Mission Operations - Milestone 3",
+          "description": "Reliability, maintenance, and lifetime statistics empirically validated in field",
+          "status": "Partially Met",
+          "gap_severity": "Major",
+          "impediment_explanation": "Addressed with preliminary observations but lacks long-term quantitative repeatability.",
+          "recommended_action": "Conduct rigorous multi-batch verification experiments for Reliability, maintenance, and lifetime statistics empirically validated in field.",
+          "recommended_tests": [
+            "Continuous mission telemetry monitoring",
+            "Fleet-wide MTBF and reliability growth tracking"
+          ]
+        }
+      ],
+      "missing_criteria_count": 0,
+      "next_trl_barriers": [],
+      "roadmap": [
+        {
+          "phase_id": "PHASE-1",
+          "phase_name": "Phase 1: Baseline Consolidation & Evidence De-Risking (TRL 9)",
+          "target_trl": 9,
+          "timeline_estimate": "Ongoing / 12+ Months",
+          "priority": "High",
+          "milestones": [
+            "Close all unverified claims identified in TRL 9 assessment",
+            "Conduct repeatability tests with statistical variance bounds",
+            "Standardize interface and calibration documentation"
+          ],
+          "validation_protocol": "Continuous mission telemetry monitoring",
+          "deliverables": [
+            "Mission Completion Certificate",
+            "Commercial Service Reliability Report",
+            "Customer SLA & warranty audit"
+          ]
+        },
+        {
+          "phase_id": "PHASE-2",
+          "phase_name": "Phase 2: Advancement & Environmental Validation (TRL 9)",
+          "target_trl": 9,
+          "timeline_estimate": "Ongoing / 12+ Months",
+          "priority": "Medium",
+          "milestones": [
+            "Integrate subsystem components into Commercial & Mission Operations configuration",
+            "Execute targeted testing: Continuous mission telemetry monitoring",
+            "Quantify operational margins and failure boundaries"
+          ],
+          "validation_protocol": "Deploy into continuous commercial service or operational mission flights.",
+          "deliverables": [
+            "Mission Completion Certificate",
+            "Commercial Service Reliability Report",
+            "Customer SLA & warranty audit"
+          ]
+        },
+        {
+          "phase_id": "PHASE-3",
+          "phase_name": "Phase 3: Formal Qualification & Deployment Pathway (TRL 9)",
+          "target_trl": 9,
+          "timeline_estimate": "Ongoing / 12+ Months",
+          "priority": "Low",
+          "milestones": [
+            "Prepare complete compliance package for TRL 9",
+            "Conduct Post-market surveillance and preventive maintenance audits under authorized oversight",
+            "Transition manufacturing and operational handover protocols"
+          ],
+          "validation_protocol": "Standardized qualification per Mission Completion Certificate",
+          "deliverables": [
+            "Mission Completion Certificate",
+            "Commercial Service Reliability Report",
+            "Customer SLA & warranty audit"
+          ]
+        }
+      ],
+      "model_explanation": {
+        "primary_reasons": [
+          "Document exhibits strong alignment with Actual System Proven through Successful Mission Operations (commercial production, fleet operations, operational uptime).",
+          "Evidence demonstrates multi-year operational uptime and mass commercial deployment."
+        ],
+        "dominant_criteria_met": [
+          "Operational mission flights or commercial service sustained with zero critical faults"
+        ],
+        "disqualifying_factors": [],
+        "uncertainty_level": "Low",
+        "uncertainty_reason": "High model consensus; dominant TRL 9 exceeds secondary alternative by 43.2% margin.",
+        "top_feature_contributions": [
+          {
+            "feature": "TRL 9 Criteria Match",
+            "weight": 0.25,
+            "impact": "Positive"
+          }
+        ],
+        "is_claim_discounted": false
+      },
+      "meta": {
+        "domain": "Aerospace & Defence"
+      }
+    },
+    "summary": "The analyzed aerospace & defence document corresponds to Technology Readiness Level 9 (Actual System Proven through Successful Mission Operations) with a calibrated model confidence of 61.7%. 2 verifiable evidence statements were extracted across 2 pages. Advancement to TRL 9 is currently constrained by 0 milestone gate(s).",
+    "technical_domain": "Aerospace & Defence"
+  }
+}

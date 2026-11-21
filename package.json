@@ -1,0 +1,10 @@
+{
+  "name": "trl-intelligence",
+  "version": "1.0.0",
+  "private": true,
+  "description": "TRL Intelligence - AI-Powered Technology Readiness Level Assessment Platform",
+  "scripts": {
+    "build": "npm --prefix frontend install && npm --prefix frontend run build",
+    "dev": "npm --prefix frontend run dev"
+  }
+}
