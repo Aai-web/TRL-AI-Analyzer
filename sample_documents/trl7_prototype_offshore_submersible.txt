@@ -1,0 +1,26 @@
+--- Page 1 ---
+FIELD DEMONSTRATION & OPERATIONAL VALIDATION REPORT
+Title: Operational Sea Trials of Autonomous Offshore Inspection Submersible (AeroSub-7)
+Vessel / Location: Dogger Bank Offshore Wind Farm, North Sea | Host Vessel: MV Northern Seeker
+Report ID: OPS-SEA-2025-07 | Date: September 2025
+
+1. EXECUTIVE SUMMARY & MISSION OBJECTIVE
+An operational prototype of the AeroSub-7 hybrid autonomous underwater vehicle (AUV) was deployed from a commercial offshore support vessel at the Dogger Bank offshore wind farm in the North Sea. The operational prototype system was demonstrated under genuine marine operational conditions to evaluate autonomous cathodic inspection, subsea weld defect recognition, and acoustic positioning in an operational offshore energy environment.
+
+2. OPERATIONAL ENVIRONMENT CONFIGURATION
+The trials took place in operational waters characterized by:
+- Sea state: Sea State 4 with surface wave heights measuring 2.1 to 2.6 meters and strong tidal currents reaching 2.4 knots.
+- Water depth: Operating depths between 28 and 36 meters.
+- Infrastructure: Active monopile turbine foundations with active electrical transmission cables.
+- Host platform integration: Deployed and recovered via a standard stern A-frame launch and recovery system (LARS) on the host vessel without requiring specialized dockside cranes.
+
+--- Page 2 ---
+3. TRIAL RESULTS & VERIFIED EMPIRICAL METRICS
+During 14 days of operational sea trials, the system demonstrated:
+- Autonomous navigation and inspection: The operational prototype successfully acquired, tracked, and autonomously inspected 14 monopile turbine foundations without umbilical tethering.
+- Defect Detection: Deep learning visual inspection cameras processed 4K video feeds in real time, detecting 18 localized weld corrosion pits with a precision of 94.2%.
+- Acoustic Positioning: Ultra-short baseline (USBL) acoustic positioning maintained sub-meter relative localization accuracy across 42 hours of cumulative dive time.
+- Autonomous Docking: Autonomous docking into the subsea recharge basket was accomplished in 8 out of 8 attempts in 1.8 knot current.
+
+4. READINESS EVALUATION & ROADMAP TO QUALIFICATION
+The demonstration of this operational prototype in an actual operating environment satisfies TRL 7 requirements. The vehicle performed its mission profile in true offshore marine conditions. To achieve TRL 8, the design must undergo formal classification society type qualification (DNV-ST-N001 / ISO 13628-8), environmental burn-in testing, and manufacturing documentation freeze for commercial production.

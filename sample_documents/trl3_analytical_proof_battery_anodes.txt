@@ -1,0 +1,24 @@
+--- Page 1 ---
+LABORATORY R&D REPORT: ADVANCED ENERGY MATERIALS
+Title: Silicon-Carbon Nanocomposite Anodes for Next-Generation Lithium-Ion Batteries
+Principal Investigator: Dr. Elena Rostova, Center for Electrochemical Nanotechnology
+Document ID: RND-BAT-2025-04 | Date: November 2025
+
+1. EXECUTIVE SUMMARY
+Active experimental R&D was initiated to develop silicon-carbon nanocomposite anode materials that overcome volume expansion degradation in energy storage cells. We synthesized silicon-carbon composite nanoparticles at 5-gram lab batch scale and tested critical electrochemical proof of concept in half-cell coin configurations. The laboratory experiment demonstrated a reversible specific capacity of 1,420 mAh/g over 50 cycles at C/5 rate in half-cell coin configurations. These synthetic benchtop measurements corroborate analytical predictions of lithium intercalation kinetics.
+
+2. SYNTHESIS AND ANALYTICAL CHARACTERIZATION
+A hydrothermal carbonization route was employed using sucrose precursor and 50 nm silicon nanoparticles. The synthesized powder was characterized using high-resolution X-ray diffraction (XRD) and Raman spectroscopy. Measured spectroscopic data confirmed localized carbon coating with a D/G band intensity ratio of 0.88, demonstrating uniform amorphous carbon shell formation.
+
+--- Page 2 ---
+3. LABORATORY BENCH EXPERIMENTS & CRITICAL FUNCTION PROOF-OF-CONCEPT
+Laboratory benchtop experiments were conducted using CR2032 half-cell coin cells assembled in an argon-filled glovebox (<0.1 ppm H2O, <0.1 ppm O2).
+Key empirical observations and measured data:
+- Specific reversible capacity: The cells measured 1,420 mAh/g initial delithiation capacity at 0.1C rate.
+- Cycling stability: After 50 continuous galvanostatic cycles, capacity retention reached 89.2% with a Coulombic efficiency of 99.4%.
+- Rate capability: At 1C discharge rate, the electrode delivered 980 mAh/g.
+
+These bench-scale experimental results provide verified proof-of-concept for the structural stabilization mechanism. The critical function of stress mitigation was experimentally validated.
+
+4. CURRENT LIMITATIONS & GAP ANALYSIS
+While critical proof of concept has been achieved in coin cells, the technology has not yet been integrated into a full-scale pouch cell breadboard or integrated with commercial cathode materials (NMC811) in a laboratory test bench. The components remain discrete half-cell specimens tested under idealized ambient laboratory bench conditions. Advancement will require assembling a multi-layer pouch cell breadboard.

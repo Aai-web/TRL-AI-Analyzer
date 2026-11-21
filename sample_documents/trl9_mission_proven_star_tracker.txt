@@ -1,0 +1,25 @@
+--- Page 1 ---
+COMMERCIAL FLIGHT OPERATIONS & MISSION HERITAGE DOSSIER
+Title: Autonomous Star Tracker Subsystem: 5-Year Cumulative On-Orbit Performance Review
+Manufacturer: Celestial Dynamics Technologies Corp. | Satellite Program: GlobalSat Constellation
+Document ID: CDR-TRL9-OPS-2025 | Date: November 2025
+
+1. SYSTEM STATUS & MISSION DEPLOYMENT SUMMARY
+The autonomous star tracker system has achieved full TRL 9 mission-proven status through continuous operational service aboard 48 commercial telecommunication satellites in geostationary orbit. Over 5.2 million cumulative on-orbit operating hours, the flight units maintained 99.999% attitude determination availability, surviving solar flare proton storms without single-event latchups. Millions of commercial customers rely on these deployed operational units daily for commercial telecommunications and broadcast relay.
+
+2. COMMERCIAL PRODUCTION & FLEET OPERATIONS DATA
+The star tracker entered full series production in 2019 under AS9100 Rev D quality management standards. To date, 112 flight models have been manufactured and delivered. 
+Fleet operational telemetry accumulated from 2020 through 2025 confirms:
+- Cumulative mission flight time: 5,280,410 operating hours across 48 operational satellites.
+- Autonomous lost-in-space acquisition: 99.98% first-pass acquisition rate within 150 milliseconds.
+- Pointing accuracy: Verified 3-axis attitude determination accuracy of 0.82 arcseconds (1-sigma) across all orbital illumination phases.
+
+--- Page 2 ---
+3. OPERATIONAL RELIABILITY AND RADIATION SURVIVABILITY
+In-service telemetry logs confirm zero in-orbit catastrophic failures:
+- Radiation endurance: Units experienced cumulative total ionizing dose (TID) exceeding 65 krad(Si) with no degradation of sensor dark current beyond calibration thresholds.
+- Temperature stability: Operational thermal range experienced on satellite bus brackets varied from -35°C to +65°C throughout eclipse seasons with active Peltier cooler regulation.
+- Software updates: In-flight upload of star catalog revision v4.2 was completed across all 48 satellites with zero service interruptions.
+
+4. CONCLUSION & TRL 9 VERIFICATION
+The technology represents an actual system proven through successful mission operations in its final operational configuration. Fleet deployment logs, commercial revenue service records, and multi-year operational uptime rigorously substantiate TRL 9 maturity according to NASA, DoD, and ISO 16290 standards.

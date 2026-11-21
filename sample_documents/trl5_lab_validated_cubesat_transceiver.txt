@@ -1,0 +1,25 @@
+--- Page 1 ---
+ENGINEERING TEST REPORT: AEROSPACE & SATELLITE COMMUNICATIONS
+Title: Thermal Vacuum Chamber Testing of S-Band CubeSat Transceiver Brassboard
+Organization: Orbital Telemetry Systems Laboratory
+Document Number: TR-OTS-2025-TVAC-09 | Date: August 2025
+
+1. TEST SCOPE & OBJECTIVE
+This report documents relevant environment testing of a high-fidelity brassboard unit of the S-band CubeSat Transceiver. The unit integrates RF front-end MMICs, an FPGA-based software-defined baseband processor, and DC-DC power converter slices into a representative 1U form-factor chassis. Testing was conducted in a thermal vacuum (TVAC) chamber to validate subsystem performance under simulated low Earth orbit (LEO) orbital conditions.
+
+2. RELEVANT ENVIRONMENT TEST SETUP
+The high-fidelity brassboard unit was placed inside a 1.2-meter cryogenic thermal vacuum chamber. Chamber boundary conditions:
+- Chamber vacuum pressure: Maintained at 1.4 × 10^-6 Torr throughout all testing.
+- Thermal cycling profiles: 12 complete thermal cycles ranging from -40°C to +85°C with a dwell time of 2 hours at each thermal plateau.
+- RF transmit load: Continuously operated at 5.0 W RF transmit power at 2.24 GHz into a calibrated high-vacuum coaxial feedthrough load.
+
+--- Page 2 ---
+3. MEASURED PERFORMANCE DATA & VERIFIED RESULTS
+During TVAC testing, telemetry and signal integrity were monitored continuously across 144 hours of simulated environmental exposure:
+- Bit Error Rate (BER): The measured bit error rate remained below 1.2 × 10^-7 across all temperature extremes at -40°C and +85°C.
+- Frequency Stability: Measured local oscillator drift was within ±1.5 ppm, satisfying mission link budget requirements.
+- Thermal Dissipation: Baseplate temperature stabilization was achieved at 64.2°C during high-power transmission cycles with no thermal runaway observed.
+- Vibration Readiness: Pre-test sine burst sweep (15g, 20-2000 Hz) confirmed structural integrity of the brassboard card cage.
+
+4. MATURITY ASSESSMENT AND NEXT STEPS
+Testing demonstrates successful component validation in a relevant environment (TRL 5). All basic technological components are integrated with realistic supporting elements. However, this is an engineering brassboard and not yet a flight-ready prototype model (EDM) or integrated payload flown on a test rocket or satellite bus. Progression to TRL 6 requires fabricating an engineering development model and executing subscale flight tests or rocket sled tests.

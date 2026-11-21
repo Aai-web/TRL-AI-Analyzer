@@ -1,0 +1,96 @@
+{
+  "model_name": "TRL-Ordinal-FrankHall-v1",
+  "algorithm": "Frank & Hall Ordinal Logistic Regression with Dense Criterion Features",
+  "dataset_size": 36,
+  "train_samples_count": 27,
+  "test_samples_count": 9,
+  "exact_match_accuracy": 0.2222,
+  "one_off_accuracy": 0.3333,
+  "mean_absolute_error": 3.3333,
+  "root_mean_squared_error": 4.1633,
+  "test_evaluations": [
+    {
+      "id": "TRL1-BIO-04",
+      "title": "Mathematical Modeling of Conformational Dynamics in Prion Misfolding",
+      "true_trl": 1,
+      "predicted_trl": 1,
+      "calibrated_confidence": 0.565,
+      "error": 0,
+      "domain": "Biomedical & Pharmaceuticals"
+    },
+    {
+      "id": "TRL2-IT-04",
+      "title": "Conceptual Architecture for Neuromorphic Optical Ternary Logic Gates",
+      "true_trl": 2,
+      "predicted_trl": 1,
+      "calibrated_confidence": 0.353,
+      "error": 1,
+      "domain": "Information Technology & AI"
+    },
+    {
+      "id": "TRL3-CHEM-04",
+      "title": "Lab-Scale Experimental Feasibility of Photocatalytic Ammonia Synthesis",
+      "true_trl": 3,
+      "predicted_trl": 9,
+      "calibrated_confidence": 0.222,
+      "error": 6,
+      "domain": "Chemical Engineering"
+    },
+    {
+      "id": "TRL4-ENERGY-04",
+      "title": "Integration and Lab Validation of Flow Battery Stack and Electrolyte Pump",
+      "true_trl": 4,
+      "predicted_trl": 9,
+      "calibrated_confidence": 0.353,
+      "error": 5,
+      "domain": "Energy & Clean Tech"
+    },
+    {
+      "id": "TRL5-ROBOT-04",
+      "title": "Relevant Environment Climatic Mud and Dust Ingress Testing of Wheel Drive",
+      "true_trl": 5,
+      "predicted_trl": 1,
+      "calibrated_confidence": 0.244,
+      "error": 4,
+      "domain": "Robotics & Autonomous Systems"
+    },
+    {
+      "id": "TRL6-BIO-04",
+      "title": "Non-Human Primate Preclinical Trial of Implantable Neural Decoder Prototype",
+      "true_trl": 6,
+      "predicted_trl": 1,
+      "calibrated_confidence": 0.367,
+      "error": 5,
+      "domain": "Biomedical & Pharmaceuticals"
+    },
+    {
+      "id": "TRL7-BIO-04",
+      "title": "Multicenter Phase III Clinical Trial of Automated Insulin Delivery Algorithm",
+      "true_trl": 7,
+      "predicted_trl": 9,
+      "calibrated_confidence": 0.368,
+      "error": 2,
+      "domain": "Biomedical & Pharmaceuticals"
+    },
+    {
+      "id": "TRL8-ENERGY-04",
+      "title": "IEC 61400-22 Type Qualification and Pre-Commissioning of 15 MW Wind Nacelle",
+      "true_trl": 8,
+      "predicted_trl": 1,
+      "calibrated_confidence": 0.373,
+      "error": 7,
+      "domain": "Energy & Clean Tech"
+    },
+    {
+      "id": "TRL9-BIO-04",
+      "title": "Post-Market Surveillance and Commercial Deployment of Robotic Surgical Console",
+      "true_trl": 9,
+      "predicted_trl": 9,
+      "calibrated_confidence": 0.419,
+      "error": 0,
+      "domain": "Biomedical & Pharmaceuticals"
+    }
+  ],
+  "is_validated": true,
+  "notes": "Verified ordinal baseline model. Validated on test split spanning TRL 1 to 9."
+}
